@@ -1,0 +1,36 @@
+{
+  "name": "node-thematic-map",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"/usr/local/node8/node_global/bin/pm2 start /home/test/workspace/nodejs/RenderServer/pm2-run.json",
+    "stop":"/usr/local/node8/node_global/bin/pm2 kill",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "canvas"
+  ],
+  "author": "onsinsin",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^2.6.0",
+    "bluebird": "^3.5.1",
+    "canvas": "^1.6.10",
+    "jsts": "^1.6.0",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-router": "^7.4.0",
+    "koa-static": "^4.0.2",
+    "lodash": "^4.17.5",
+    "log4js": "^2.5.3",
+    "mapnik": "^3.5.14",
+    "mongodb": "^3.0.6",
+    "pg": "^7.4.1",
+    "proj4": "^2.4.4",
+    "request": "^2.85.0",
+    "uuid": "^3.2.1"
+  },
+  "devDependencies": {}
+}
